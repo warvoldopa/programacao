@@ -1,0 +1,21 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double base;System.out.println(
+        double altura;
+        double area;
+        System.out.println("informe a base ");
+        base = sc.nextDouble();
+        System.out.println("informe a alture ");
+        altura = sc.nextDouble();
+        area = base * altura;
+        System.out.println("a area é " + area);
+
+
+    }
+}
